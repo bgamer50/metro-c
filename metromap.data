@@ -1,193 +1,91 @@
-%O
-Vienna
-Dunn_Loring
-West_Falls_Church
-East_Falls_Church
-Ballston-MU
-Virginia_Square-GMU
-Clarendon
-Court_House
-Rosslyn
-Foggy_Bottom-GWU
-Farragut_West
-McPherson_Square
-Metro_Center
-Federal_Triangle
-Smithsonian
-L'Enfant_Plaza
-Federal_Center_SW
-Capitol_South
-Eastern_Market
-Potomac_Avenue
-Stadium-Armory
-Minnesota_Avenue
-Deanwood
-Cheverly
-Landover
-New_Carrollton
-&
-%S
-Wiehle-Reston_East
-Spring_Hill
-Greensboro
-Tysons_Corner
-McLean
-East_Falls_Church
-Ballston-MU
-Virginia_Square-GMU
-Clarendon
-Court_House
-Rosslyn
-Foggy_Bottom-GWU
-Farragut_West
-McPherson_Square
-Metro_Center
-Federal_Triangle
-Smithsonian
-L'Enfant_Plaza
-Federal_Center_SW
-Capitol_South
-Eastern_Market
-Potomac_Avenue
-Stadium-Armory
-Benning_Road
-Capitol_Heights
-Addison_Road
-Morgan_Boulevard
-Largo_Town_Center
-&
-%B
-Franconia-Springfield
-Van_Dorn_Street
-King_Street-Old_Town
-Braddock_Road
-Ronald_Reagan_National_Airport
-Crystal_City
-Pentagon_City
-Pentagon
-Arlington_Cemetery
-Rosslyn
-Foggy_Bottom-GWU
-Farragut_West
-McPherson_Square
-Metro_Center
-Federal_Triangle
-Smithsonian
-L'Enfant_Plaza
-Federal_Center_SW
-Capitol_South
-Eastern_Market
-Potomac_Avenue
-Stadium-Armory
-Benning_Road
-Capitol_Heights
-Addison_Road
-Morgan_Boulevard
-Largo_Town_Center
-&
-%Y
-Huntington
-Eisenhower_Avenue
-King_Street-Old_Town
-Braddock_Road
-Ronald_Reagan_National_Airport
-Crystal_City
-Pentagon_City
-Pentagon
-L'Enfant_Plaza
-Archives
-Gallery_Place
-Mount_Vernon_Square
-Shaw-Howard_University
-U_Street
-Columbia_Heights
-Georgia_Avenue-Petworth
-Fort_Totten
-&
-%Z
-Franconia-Springfield
-Van_Dorn_Street
-King_Street-Old_Town
-Braddock_Road
-Ronald_Reagan_National_Airport
-Crystal_City
-Pentagon_City
-Pentagon
-L'Enfant_Plaza
-Archives
-Gallery_Place
-Mount_Vernon_Square
-Shaw-Howard_University
-U_Street
-Columbia_Heights
-Georgia_Avenue-Petworth
-Fort_Totten
-West_Hyattsville
-Prince_George's_Plaza
-College_Park-University_of_Maryland
-Greenbelt
-&
-%G
-Branch_Avenue
-Suitland
-Naylor_Road
-Southern_Avenue
-Congress_Heights
-Anacostia
-Navy_Yard-Ballpark
-Waterfront
-L'Enfant_Plaza
-Archives
-Gallery_Place
-Mount_Vernon_Square
-Shaw-Howard_University
-U_Street
-Columbia_Heights
-Georgia_Avenue-Petworth
-Fort_Totten
-West_Hyattsville
-Prince_George's_Plaza
-College_Park-University_of_Maryland
-Greenbelt
-&
-%R
-Shady_Grove
-Rockville
-Twinbrook
-White_Flint
-Grosvenor-Strathmore
-Medical_Center
-Bethesda
-Friendship_Heights
-Tenleytown-AU
-Van_Ness-UDC
-Cleveland_Park
-Woodley_Park
-Dupont_Circle
-Farragut_North
-Metro_Center
-Gallery_Place
-Judiciary_Square
-Union_Station
-NoMa-Gallaudet_University
-Rhode_Island_Avenue
-Brookland-CUA
-Fort_Totten
-Takoma
-Silver_Spring
-Forest_Glen
-Wheaton
-Glenmont
-&
-%end
-%transfer
-King_Street-Old_Town
-Pentagon
-L'Enfant_Plaza
-Rosslyn
-East_Falls_Church
-Metro_Center
-Gallery_Place
-Stadium-Armory
-Fort_Totten
-%end
+Addison_Road BS 0
+Anacostia G 0
+Archives GYZ 0
+Arlington_Cemetery B 0
+Ballston-MU OS 0
+Benning_Road BS 0
+Bethesda R 0
+Braddock_Road BYZ 0
+Branch_Avenue G 0
+Brookland-CUA R 0
+Capitol_Heights BS 0
+Capitol_South BOS 0
+Cheverly O 0
+Clarendon OS 0
+Cleveland_Park R
+College_Park-University_of_Maryland GZ 0
+Columbia_Heights GYZ 0
+Congress_Heights G 0
+Court_House OS 0
+Crystal_City BYZ 0
+Deanwood O 0
+Dunn_Loring O 0
+Dupont_Circle R 0
+East_Falls_Church OS 1
+Eastern_Market BOS 0
+Eisenhower_Avenue Y 0
+Farragut_North R 0
+Farragut_West BOS 0
+Federal_Center_SW BOS 0
+Federal_Triangle BOS 0
+Foggy_Bottom-GWU BOS 0
+Forest_Glen R 0
+Fort_Totten RGYZ 1
+Franconia-Springfield BZ 0
+Friendship_Heights R 0
+Gallery_Place RGYZ 1
+Georgia_Avenue-Petworth GYZ 0
+Glenmont R 0
+Greenbelt GZ 0
+Greensboro S 0
+Grosvenor-Strathmore R 0
+Huntington Y 0
+Judiciary_Square R 0
+King_Street-Old_Town BYZ 1
+L'Enfant_Plaza GYZBOS 1
+Landover O 0
+Largo_Town_Center BS 0
+McLean S 0
+McPherson_Square BOS 0
+Medical_Center R 0
+Metro_Center RBOS 1
+Minnesota_Avenue O 0
+Morgan_Boulevard BS 0
+Mount_Vernon_Square GYZ 0
+Navy_Yard-Ballpark G 0
+Naylor_Road G 0
+New_Carrollton O 0
+NoMa-Gallaudet_University R 0
+Pentagon BYZ 1
+Pentagon_City BYZ 0
+Potomac_Avenue BOS 0
+Prince_George's_Plaza GZ 0
+Rhode_Island_Avenue R 0
+Rockville R 0
+Ronald_Reagan_National_Airport BYZ 0
+Rosslyn BOS 1
+Shady_Grove R 0
+Shaw-Howard_University GYZ 0
+Silver_Spring R 0
+Smithsonian BOS 0
+Southern_Avenue G 0
+Spring_Hill S 0
+Stadium-Armory BOS 1
+Suitland G 0
+Takoma R 0
+Tenleytown-AU R 0
+Twinbrook R 0
+Tysons_Corner S 0
+U_Street GYZ 0
+Union_Station R 0
+Van_Dorn_Street BZ 0
+Van_Ness-UDC R 0
+Vienna O 0
+Virginia_Square-GMU OS 0
+Waterfront G 0
+West_Falls_Church O 0
+West_Hyattsville GZ 0
+Wheaton R 0
+White_Flint R 0
+Wiehle-Reston_East S 0
+Woodley_Park R 0
