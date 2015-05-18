@@ -3,16 +3,6 @@
 #include "lists.h"
 #include <malloc.h>
 
-/**Line Declarations**/
-Station* orangeLine;
-Station* silverLine;
-Station* blueLine;
-Station* redLine;
-Station* greenLine;
-Station* yellowLine;
-Station* yellowLine2;
-/**End Line Declarations**/
-
 int main(char* argv[]) {
 	Station lfp;
 	lfp.name = "L'Enfant Plaza";
@@ -24,18 +14,17 @@ int main(char* argv[]) {
 //Reads the metro map file.
 void parseMap() {
 	FILE* map = fopen("metromap.data", "r");
-	char* e = malloc(sizeof(char*) * 100);
-	Station* currentLine = orangeLine;
-	while(fscanf(map, "%s", e) != EOF) {
-		if(e[0] == '%')
-			switch(e[1]) {
-				case 'O': currentLine = orangeLine; break;
-				case 'S': currentLine = silverLine; break;
-				case 'B': currentLine = blueLine; break;
-				case 'R': currentLine = redLine; break;
-				case 'G': currentLine = greenLine; break;
-				case 'Y': currentLine = yellowLine; break;
-				case 'Z': currentLine = yellowLine2; break;
-			}
+	char* e = malloc(sizeof(char) * 100);
+	char* f = malloc(sizeof(char) * 100);
+	char* g = malloc(sizeof(char) * 100);
+	Station stations[100];
+	int k = 0;
+	while(fscanf(map, "%s %s %d", e, f, g) != EOF) {
+		stations[k].name = e;
+		stations[k].line = f;
+		stations[k].transfer = false;
+		if(g[0]==1) stations[k].transfer = true;
+		printf("%s %s %d\n", stations[k].name, stations[k].line, stations[k].transfer);
+		k++;
 	}
 }
