@@ -1,95 +1,93 @@
-%distance
-Wiehle-Reston_East~Spring_Hill~8
-Spring_Hill~Greensboro~2
-Greensboro~Tysons_Corner~2
-Tysons_Corner~McLean~2
-McLean~East_Falls_Church~8
-Vienna~Dunn_Loring~3
-Dunn_Loring~West_Falls_Church~4
-West_Falls_Church~East_Falls_Church~3
-East_Falls_Church~Ballston-MU~4
-Ballston-MU~Virginia_Square-GMU~2
-Virginia_Square-GMU~Clarendon~1
-Clarendon~Court_House~2
-Court_House~Rosslyn~3
-Rosslyn~Arlington_Cemetery~2
-Arlington_Cemetery~Pentagon~3
-Pentagon~Pentagon_City~1
-Pentagon_City~Crystal_City~1
-Crystal_City~Ronald_Reagan_National_Airport~2
-Ronald_Reagan_National_Airport~Braddock_Road~5
-Braddock_Road~King_Street-Old_Town~2
-King_Street-Old_Town~Eisenhower_Avenue~2
-Eisenhower_Avenue~Huntington~1
-King_Street-Old_Town~Van_Dorn_Street~5
-Van_Dorn_Street~Franconia-Springfield~5
-Rosslyn~Foggy_Bottom-GWU~3
-Foggy_Bottom-GWU~Farragut_West~2
-Farragut_West~McPherson_Square~1
-McPherson_Square~Metro_Center~1
-Metro_Center~Federal_Triangle~1
-Federal_Triangle~Smithsonian~2
-Smithsonian~L'Enfant_Plaza~2
-L'Enfant_Plaza~Pentagon~5
-L'Enfant_Plaza~Waterfront~2
-Waterfront~Navy_Yard-Ballpark~2
-Navy_Yard-Ballpark~Anacostia~3
-Anacostia~Congress_Heights~3
-Congress_Heights~Southern_Avenue~2
-Southern_Avenue~Naylor_Road~3
-Naylor_Road~Suitland~2
-Suitland~Branch_Avenue~3
-L'Enfant_Plaza~Federal_Center_SW~2
-Federal_Center_SW~Capitol_South~2
-Capitol_South~Eastern_Market~2
-Eastern_Market~Potomac_Avenue~2
-Potomac_Avenue~Stadium-Armory~1
-Stadium-Armory~Benning_Road~3
-Benning_Road~Capitol_Heights~3
-Capitol_Heights~Addison_Road~3
-Addison_Road~Morgan_Boulevard~3
-Morgan_Boulevard~Largo_Town_Center~3
-Stadium-Armory~Minnesota_Avenue~4
-Minnesota_Avenue~Deanwood~2
-Deanwood~Cheverly~2
-Cheverly~Landover~3
-Landover~New_Carrollton~3
-L'Enfant_Plaza~Archives~2
-Archives~Gallery_Place~1
-Gallery_Place~Mount_Vernon_Square~2
-Mount_Vernon_Square~Shaw-Howard_University~1
-Shaw-Howard_University~U_Street~1
-U_Street~Columbia_Heights~2
-Columbia_Heights~Georgia_Avenue-Petworth~2
-Georgia_Avenue-Petworth~Fort_Totten~3
-Fort_Totten~West_Hyattsville~3
-West_Hyattsville~Prince_George's_Plaza~2
-Prince_George's_Plaza~College_Park-University_of_Maryland~3
-College_Park-University_of_Maryland~Greenbelt~3
-Fort_Totten~Takoma~3
-Takoma~Silver_Spring~3
-Silver_Spring~Forest_Glen~3
-Forest_Glen~Wheaton~3
-Wheaton~Glenmont~3
-Fort_Totten~Brookland-CUA~3
-Brookland-CUA~Rhode_Island_Avenue~2
-Rhode_Island_Avenue~NoMa-Gallaudet_University~2
-NoMa-Gallaudet_University~Union_Station~2
-Union_Station~Judiciary_Square~2
-Judiciary_Square~Gallery_Place~2
-Gallery_Place~Metro_Center~2
-Metro_Center~Farragut_North~2
-Farragut_North~Dupont_Circle~3
-Dupont_Circle~Woodley_Park~2
-Woodley_Park~Cleveland_Park~2
-Cleveland_Park~Van_Ness-UDC~2
-Van_Ness-UDC~Tenleytown-AU~2
-Tenleytown-AU~Friendship_Heights~2
-Friendship_Heights~Bethesda~2
-Bethesda~Medical_Center~2
-Medical_Center~Grosvenor-Strathmore~3
-Grosvenor-Strathmore~White_Flint~3
-White_Flint~Twinbrook~3
-Twinbrook~Rockville~3
-Rockville~Shady_Grove~4
-%end
+1 53 3
+2 18 3
+3 36 1
+4 59 3
+5 84 2
+6 11 3
+7 50 2
+8 44 2
+10 63 2
+11 1 3
+12 25 2
+13 46 3
+14 19 2
+15 82 2
+16 39 3
+17 37 2
+18 71 2
+19 66 3
+20 65 2
+21 13 2
+21 86 4
+23 91 2
+24 5 4
+25 61 2
+26 42 1
+27 23 3
+28 49 1
+29 12 2
+30 70 2
+31 28 2
+32 88 3
+33 10 3
+33 75 3
+33 87 3
+35 7 2
+36 51 2
+36 54 2
+37 33 3
+40 78 2
+41 89 3
+43 36 2
+44 26 2
+44 81 5
+45 3 2
+45 29 2
+45 59 5
+45 85 2
+46 57 3
+48 24 8
+49 51 1
+50 41 3
+51 27 2
+51 30 1
+52 21 2
+53 47 3
+54 68 1
+55 2 3
+56 74 2
+58 80 2
+60 20 1
+59 60 1
+61 73 1
+62 16 3
+63 58 2
+64 67 4
+65 8 5
+66 4 2
+66 31 3
+68 79 1
+69 32 3
+70 45 2
+71 56 3
+72 40 2
+73 6 3
+73 52 4
+74 9 3
+75 69 3
+76 35 2
+77 64 3
+78 48 2
+79 17 2
+80 43 2
+81 34 5
+82 76 2
+83 21 3
+84 14 1
+85 55 2
+86 24 3
+87 62 2
+88 38 3
+89 77 3
+90 72 8
+91 15 2
