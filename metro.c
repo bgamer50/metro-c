@@ -10,9 +10,10 @@ int main(char* argv[]) {
 	int k;
 	parseMap();
 	parseDistances();
-	for(k = 0; k < 5; k++) {
-		printf("%s\n", stations[k].name);
+	for(k = 0; k < 91; k++) {
+		printf("%s %d %d\n", stations[k].name, stations[k].neighbors[0], 0);
 	}
+	printf("\nhello\n");
 }
 
 //Reads the metro map file.
@@ -28,23 +29,28 @@ void parseMap() {
 		strcpy(stations[k].name, e);
 		stations[k].line = f;
 		stations[k].ID = *h;
+		stations[k].neighborCount = 0;
 		stations[k].transfer = false;
 		if(*g==1) stations[k].transfer = true;
-		printf("%s %s %d\n", stations[k].name, stations[k].line, stations[k].transfer);
+		//printf("%s %s %d\n", stations[k].name, stations[k].line, stations[k].transfer);
 		k++;
 	}
 	NUMBER_OF_STATIONS = *g;
 }
 
+Station* int2Station(int k) {
+	return &stations[k - 1];
+}
+
 void parseDistances() {
 	FILE* dist = fopen("metrodist.data", "r");
-	char* e = malloc(sizeof(char) * 100);
-	char* f = malloc(sizeof(char) * 100);
+	int* e = malloc(sizeof(int));
+	int* f = malloc(sizeof(int));
 	int* g = malloc(sizeof(int));
 	Station E; Station F;
-	while(fscanf(dist, "%s %s %d", e, f, g) != EOF) {
-		E = stations[*e]; F = stations[*f];
-		E.neighbors[E.neighborCount++] = *f;
-		F.neighbors[F.neighborCount++] = *e;
+	while(fscanf(dist, "%d %d %d", e, f, g) != EOF) {
+		stations[*e - 1].neighbors[stations[*e - 1].neighborCount++] = *f;
+		stations[*f - 1].neighbors[stations[*f - 1].neighborCount++] = *e;
+		//printf("%d %d\n", *f, *e);
 	}
 }
